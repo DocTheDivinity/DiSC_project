@@ -1,0 +1,38 @@
+/* Grundlegendes Layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #eef2f3, #8e9eab);
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Zentrierte Box */
+.centered-box {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 90%;
+}
+
+/* Überschriften und Text */
+h1 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+h2 {
+  color: #555;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
