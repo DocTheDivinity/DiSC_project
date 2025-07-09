@@ -1,4 +1,3 @@
-/* Grundlegendes Layout */
 body {
   margin: 0;
   padding: 0;
@@ -9,9 +8,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
 }
 
-/* Zentrierte Box */
 .centered-box {
   text-align: center;
   background: white;
@@ -22,7 +21,6 @@ body {
   width: 90%;
 }
 
-/* Überschriften und Text */
 h1 {
   margin-bottom: 10px;
   color: #2c3e50;
@@ -35,4 +33,29 @@ h2 {
 p {
   font-size: 1.1em;
   margin: 10px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #27ae60;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
 }
